@@ -33,4 +33,4 @@ def read_file_with_pandas(path:str, separator=',') -> str:
         FileNotFoundError: If file does not exist
         pandas.errors.ParserError: If file is not in table format
     """
-    return pd.read_csv(path,header=None, sep=separator).to_string()
+    return pd.read_csv(path,header=None, sep=separator).to_string(index=False, header=False)
