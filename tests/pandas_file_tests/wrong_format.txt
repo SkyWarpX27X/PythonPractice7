@@ -1,0 +1,3 @@
+5 tokens in first line
+3 in second
+Now we have error
